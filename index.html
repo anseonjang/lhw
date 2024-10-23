@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 이현우 홈페이지 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004c98;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #004c98;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .menu-title {
+            color: #004c98;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .menu-content {
+            margin-bottom: 30px;
+        }
+
+        /* 반응형 스타일 */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> Hyunwoo Lee </h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#learning-materials">Learning Materials</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#math-quiz">Math Quiz</a></li>
+            <li><a href="#math-stories">Math Stories</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about" class="menu-content">
+        <h2 class="menu-title">About</h2>
+        <p>Personal introduction, research areas, education, and experience.</p>
+    </section>
+
+    <section id="research" class="menu-content">
+        <h2 class="menu-title">Research</h2>
+        <p>Ongoing research projects, list of publications, and links to presentations.</p>
+    </section>
+
+    <section id="learning-materials" class="menu-content">
+        <h2 class="menu-title">Learning Materials</h2>
+        <p>Lecture notes, reference materials, and educational resources.</p>
+    </section>
+
+    <section id="community" class="menu-content">
+        <h2 class="menu-title">Community</h2>
+        <p>Department news, seminar schedules, and conference information.</p>
+    </section>
+
+    <section id="contact" class="menu-content">
+        <h2 class="menu-title">Contact</h2>
+        <p>Email, social media links, and a contact form.</p>
+    </section>
+
+    <section id="math-quiz" class="menu-content">
+        <h2 class="menu-title">Math Quiz</h2>
+        <p>Interactive math quizzes and answer explanations for visitors.</p>
+    </section>
+
+    <section id="math-stories" class="menu-content">
+        <h2 class="menu-title">Math Stories</h2>
+        <p>Interesting math theories, historical events, and fun math facts.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Hyunwoo Lee.</p>
+</footer>
+
+</body>
+</html>
